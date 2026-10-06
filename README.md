@@ -5,7 +5,15 @@
 2. https://charoenj.itch.io/wk1-class-activity
 
 ### W2
-Create future Devlog sub-headers with the three # symbols, then write your Devlogs below them.
+1. The r, g, and b are all floats because they contain numbers that are decimals. Ints only refer to numbers that are whole, bool only has true or false values, and strings are made up of words and not numbers.
+2. The _bounce variable is an int because the number of bounces can only be a whole number, not a decimal of a bounce nor is it a true/false value nor a word.
+3. There was a semi-colon missing at the end of the statement. 
+
+### W3
+
+
+
+### W4
 
 ## Open-Source Assets
 ### W1
