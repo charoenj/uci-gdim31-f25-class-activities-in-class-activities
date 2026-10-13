@@ -29,6 +29,8 @@
    - Component - actual surfboard
    - Variable - color, size, shape
    - Method - does the surfboard work?? lol
+## Activity 3   
+   - I think the ball gets extremely bright when they bounce too many times because step 9 changes the ball color based on its velocity, so I guess the faster the ball goes, the ball increases in brightness. 
 
 ### W4
 
