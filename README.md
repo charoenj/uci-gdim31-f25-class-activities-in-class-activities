@@ -10,8 +10,20 @@
 3. There was a semi-colon missing at the end of the statement. 
 
 ### W3
-
-
+Activity 1
+Table #18
+1. You’re building a visual novel, and you’re writing a method named GetResponse that gives you a character’s text response to a player’s dialogue choice. The relevant data for the dialogue choice are the player’s current friendship level with the character and a flag that tells you whether or not the player knows the character’s secret.
+   public string GetResponse (int friendshipLevel, bool knowSecret) {}
+   - input: int/float (friendship level), bool (knows secret? yes or no?) 
+   - output: string (text response)
+2. You’re building a horror game, and you’re writing a method named SetLightDimness that makes the room’s lights brighter or darker based on the player’s current sanity level. The player’s sanity level is a number that goes from 0% - 100%. The method changes the light itself, so it doesn’t need any output.
+   public void SetLightDimness (float sanityLevel) {}
+   - input: float (sanity level) 
+   - output: no output (void method) 
+3. You’re building a rhythm game, and you’re writing a method named DidPlayerHitBeat that tells you whether or not the player accurately hit a beat based on the time that they pressed a key.
+   public bool DidPlayerHitBeat (float timeHit) {}
+   - input: float (when did they hit)
+   - output: bool (hit beat or no?)
 
 ### W4
 
