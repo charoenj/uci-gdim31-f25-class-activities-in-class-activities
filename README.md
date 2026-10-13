@@ -10,8 +10,7 @@
 3. There was a semi-colon missing at the end of the statement. 
 
 ### W3
-Activity 1
-Table #18
+## Activity 1 - Table #18
 1. You’re building a visual novel, and you’re writing a method named GetResponse that gives you a character’s text response to a player’s dialogue choice. The relevant data for the dialogue choice are the player’s current friendship level with the character and a flag that tells you whether or not the player knows the character’s secret.
    public string GetResponse (int friendshipLevel, bool knowSecret) {}
    - input: int/float (friendship level), bool (knows secret? yes or no?) 
@@ -24,6 +23,12 @@ Table #18
    public bool DidPlayerHitBeat (float timeHit) {}
    - input: float (when did they hit)
    - output: bool (hit beat or no?)
+   - 
+## Activity 2 - Table #18
+   - Class - blueprint of the board
+   - Component - actual surfboard
+   - Variable - color, size, shape
+   - Method - does the surfboard work?? lol
 
 ### W4
 
