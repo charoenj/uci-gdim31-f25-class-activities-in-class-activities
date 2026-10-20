@@ -34,6 +34,11 @@ Activity 3
    - I think the ball gets extremely bright when they bounce too many times because step 9 changes the ball color based on its velocity, so I guess the faster the ball goes, the ball increases in brightness. 
 
 ### W4
+Collision Setup Activity - Table #18
+1. We added rigid bodies to the Cat and the Soccer ball. The cat needs one so that it can move and kick the ball and then the soccer ball needs one so it can be kicked and so it can bounce off of the wall. We added the IsTrigger to the goal because it allows the game to detect when the ball enters the goal without blocking it. Also, in step 1, we
+2. Our code worked fine!
+
+### W5
 
 ## Open-Source Assets
 ### W1
