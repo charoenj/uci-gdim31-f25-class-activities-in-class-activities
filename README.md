@@ -38,7 +38,15 @@ Collision Setup Activity - Table #18
 1. We added rigid bodies to the Cat and the Soccer ball. The cat needs one so that it can move and kick the ball and then the soccer ball needs one so it can be kicked and so it can bounce off of the wall. We added the IsTrigger to the goal because it allows the game to detect when the ball enters the goal without blocking it. 
 2. Our code worked fine!
 
-### W5
+### W6 
+1. What member variable(s) does this class need?
+   - We need a Transform variable to store the gameobject that the Deer will walk to.
+   - We need a NavMeshAgent variable to store the component attached to the deer. 
+2. What method(s) does this class need? Should it be something that Unity provides (like Start(), Update(), or a collision method), or one you write?
+   - It needs the Start() method most likely, it probably won't need an Update() method since the NavMeshAgent does it. 
+3. What should the method(s) do?
+   - The Start() method should use GetComponent<NavMeshAgent>() to get the NavMeshAgent component from the deer. Then, it should use SetDestination()      to tell the deer to walk toward the target's position.
+
 
 ## Open-Source Assets
 ### W1
