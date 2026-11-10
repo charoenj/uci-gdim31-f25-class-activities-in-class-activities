@@ -46,6 +46,14 @@ Collision Setup Activity - Table #18
    - It needs the Start() method most likely, it probably won't need an Update() method since the NavMeshAgent does it. 
 3. What should the method(s) do?
    - The Start() method should use GetComponent<NavMeshAgent>() to get the NavMeshAgent component from the deer. Then, it should use SetDestination()      to tell the deer to walk toward the target's position.
+  
+### W7
+1. We need a speed variable (most likely a float), a cat variable, and a boolean value to see if the bat is chasing the player.
+2. It needs the Start() method for testing ("just for the sake of testing"), Update() so it makes the bat move towards the cat to chase, startChasing(), and stopChasing().
+3. The Start() will find the cat object in the scene and calls the startChasing(). The Update() will move the bat towards the cat using the speed value. startChasing() will set isChasing value to true and stopChasing() will do the opposite.
+
+Link to class resource guide thing: https://docs.google.com/document/d/1L_iLX4u2GuvH3esfO7PilPQzlPAVBcT6UHJst6lTWh0/edit?tab=t.0
+General C# coding
 
 
 ## Open-Source Assets
