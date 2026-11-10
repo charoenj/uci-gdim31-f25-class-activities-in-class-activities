@@ -53,7 +53,7 @@ Collision Setup Activity - Table #18
 3. The Start() will find the cat object in the scene and calls the startChasing(). The Update() will move the bat towards the cat using the speed value. startChasing() will set isChasing value to true and stopChasing() will do the opposite.
 
 Link to class resource guide thing: https://docs.google.com/document/d/1L_iLX4u2GuvH3esfO7PilPQzlPAVBcT6UHJst6lTWh0/edit?tab=t.0
-General C# coding
+Section: General C# coding
 
 
 ## Open-Source Assets
