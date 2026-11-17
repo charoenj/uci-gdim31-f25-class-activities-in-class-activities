@@ -34,6 +34,27 @@ Activity 3
    - I think the ball gets extremely bright when they bounce too many times because step 9 changes the ball color based on its velocity, so I guess the faster the ball goes, the ball increases in brightness. 
 
 ### W4
+Collision Setup Activity - Table #18
+1. We added rigid bodies to the Cat and the Soccer ball. The cat needs one so that it can move and kick the ball and then the soccer ball needs one so it can be kicked and so it can bounce off of the wall. We added the IsTrigger to the goal because it allows the game to detect when the ball enters the goal without blocking it. 
+2. Our code worked fine!
+
+### W6 
+1. What member variable(s) does this class need?
+   - We need a Transform variable to store the gameobject that the Deer will walk to.
+   - We need a NavMeshAgent variable to store the component attached to the deer. 
+2. What method(s) does this class need? Should it be something that Unity provides (like Start(), Update(), or a collision method), or one you write?
+   - It needs the Start() method most likely, it probably won't need an Update() method since the NavMeshAgent does it. 
+3. What should the method(s) do?
+   - The Start() method should use GetComponent<NavMeshAgent>() to get the NavMeshAgent component from the deer. Then, it should use SetDestination()      to tell the deer to walk toward the target's position.
+  
+### W7
+1. We need a speed variable (most likely a float), a cat variable, and a boolean value to see if the bat is chasing the player.
+2. It needs the Start() method for testing ("just for the sake of testing"), Update() so it makes the bat move towards the cat to chase, startChasing(), and stopChasing().
+3. The Start() will find the cat object in the scene and calls the startChasing(). The Update() will move the bat towards the cat using the speed value. startChasing() will set isChasing value to true and stopChasing() will do the opposite.
+
+Link to class resource guide thing: https://docs.google.com/document/d/1L_iLX4u2GuvH3esfO7PilPQzlPAVBcT6UHJst6lTWh0/edit?tab=t.0
+Section: General C# coding
+
 
 ## Open-Source Assets
 ### W1
