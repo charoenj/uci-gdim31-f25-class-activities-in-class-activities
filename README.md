@@ -55,6 +55,12 @@ Collision Setup Activity - Table #18
 ### W8
 We needed to change Vector3.forward to transform.forward because Vector3.forward always moves the Muskrat along the world's z-axis no matter which way we want to face. transform accurately moves it in the direction we are facing. 
 
+### W9
+https://docs.google.com/drawings/d/1guaLHKu4HPlHOXf-3tyLUzdFrcX5fQPuAd4iNXwO-ZM/edit?usp=sharing
+Most of my contributions were through discussion as two of our group members had a really good idea of what needed what and were rapidly adding to the map...I did do the UI bubble though.
+
+
+
 Link to class resource guide thing: https://docs.google.com/document/d/1L_iLX4u2GuvH3esfO7PilPQzlPAVBcT6UHJst6lTWh0/edit?tab=t.0
 Section: General C# coding
 
