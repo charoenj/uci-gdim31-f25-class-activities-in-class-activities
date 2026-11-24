@@ -59,6 +59,8 @@ We needed to change Vector3.forward to transform.forward because Vector3.forward
 https://docs.google.com/drawings/d/1guaLHKu4HPlHOXf-3tyLUzdFrcX5fQPuAd4iNXwO-ZM/edit?usp=sharing
 Most of my contributions were through discussion as two of our group members had a really good idea of what needed what and were rapidly adding to the map...I did do the UI bubble though.
 
+In class, I was able to set up my NavMesh and my terrain. (Adding this in last minute, forgot to add in this part!)
+
 
 
 Link to class resource guide thing: https://docs.google.com/document/d/1L_iLX4u2GuvH3esfO7PilPQzlPAVBcT6UHJst6lTWh0/edit?tab=t.0
